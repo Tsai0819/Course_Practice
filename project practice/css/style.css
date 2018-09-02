@@ -1,0 +1,112 @@
+*{
+	box-sizing: border-box;
+	position: relative;
+}
+.section1{
+	background-color: #ccc;
+	height: 600px;
+}
+
+.section2{
+	background-color: #ccc;
+	height: 600px;
+}
+.btn{
+	display: inline-block;
+	font-family: '微軟正黑體';
+	font-size: 48px;
+	color: #fff;
+	line-height: 80px;
+	text-decoration: none;
+
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.btn:before{
+	content:"";
+	display: block;
+	height: 5px;
+	width: 0px;
+	background: #000;
+
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: all 0.3s;
+}
+
+.btn:hover:before{
+	color: #ff0061;
+	width: 100%;
+}
+.btn:after{
+	content: "";
+	display: block;
+	height: 5px;
+	width: 0px;
+	background-color: #000;
+
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	transition: all 0.3s;
+}
+.btn:hover:after{
+	color:  #ff0061;
+	width: 100%;
+}
+.btn1{
+	display: inline-block;
+	font-family: '微軟正黑體';
+	font-size: 48px;
+	color: #fff;
+	line-height: 80px;
+	text-decoration: none;
+
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.btn1:before{
+	content:"";
+	display: block;
+	height: 5px;
+	width: 0px;
+	background: #000;
+
+	position: absolute;
+	left:50%;
+	top: 0;
+	transform: translate(-50%,0);
+	transition: all 0.3s;
+}
+
+.btn1:hover:before{
+	color: #ff0061;
+	width: 100%;
+}
+.btn1:after{
+	content: "";
+	display: block;
+	height: 5px;
+	width: 0px;
+	background-color: #000;
+
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translate(-50%,0);
+	transition: all 0.3s;
+}
+.btn1:hover:after{
+	color:  #ff0061;
+	width: 100%;
+}
+
+
+

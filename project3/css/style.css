@@ -1,0 +1,56 @@
+/*html的寫法*/
+html,body{
+	font-family: '微軟正黑體';
+	color:#000;
+}
+div{
+	height:300px;
+	width:300px;
+	background-color: #acdbc9;
+}
+
+/*class的寫法*/
+/*.post1{
+	background-color: #acdbc9;
+}*/
+/*.post2{
+	background-color: #acdbc9;
+}*/
+/*.post3{
+	background-color: #f7a7a6;
+}*/
+/*.post4{
+	background-color: #f38b94;
+}*/
+
+
+/*定位屬性*/
+.static{
+	background-color: #acdbc9;
+	position: static;
+	margin-left: 100px;
+}
+.relative{
+	background-color: #fdd2b5;
+	position: relative;
+	left:100px;
+}
+.post3{
+	background-color: #f7a7a6;
+	position: absolute;
+	top:0;
+	right:0;
+	/*z-index: 1;*/
+}
+.outter{
+	width:500px;
+	height:500px;
+	border:5px solid #000;
+	position: relative;
+}
+.post4{
+	background-color: #f38b94;
+	position: fixed;
+	right:0;
+	bottom: 0;
+}
