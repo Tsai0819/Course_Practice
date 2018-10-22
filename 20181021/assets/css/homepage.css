@@ -49,8 +49,12 @@
 .homepage-service .btn-group{
 	margin-top: 48px;
 }
+.homepage-service .big-word{
+	top: -160px;
+	left: -120px;
+}
 /*Project*/
-.homepage-project .project-item .heading:not(:last-child){
+.homepage-project .project-item:not(:last-child){
 	margin-bottom: 160px;
 }
 .homepage-project .project-item .heading{
