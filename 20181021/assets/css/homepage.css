@@ -111,5 +111,17 @@
 	
 }
 /*Quote*/
+.homepage-quote{
+	text-align: center;
+}
+.homepage-quote .fa{
+	font-size: 48px;
+	color: #6772e5;
+	margin-bottom: 32px;
+}
+.homepage-quote .big-word{
+	top: -160px;
+	right: -240px;
+}
 
 /*Contact*/
