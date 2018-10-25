@@ -241,7 +241,9 @@
 }
 
 .nav__link{
-	color: #40414f;
+	color: #ADAEAD;
+	font-family: Helvetica,Arial,"Noto Sans TC","Helvetica Neue","微軟正黑體","Microsoft JhengHei",PMingLiU,sans-serif;
+	font-weight: 800;
 	line-height: 24px;
 	padding-left: 16px;
 	padding-right: 16px;
