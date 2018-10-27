@@ -1,0 +1,55 @@
+/*easyrecipe*/
+.homepage-easyrecipe{
+
+}
+
+.easyrecipe-title{
+	/*margin-bottom: 32px;*/
+	/*margin-top: 32px;*/
+	text-align: center;
+	font-weight: 800;
+}
+
+.easyrecipe-sub-title{
+	/*margin-bottom: 24px;*/
+	text-align: center;
+	font-weight: 800;
+}
+
+/*hardrecipe*/
+
+.hardrecipe-title{
+	/*margin-bottom: 32px;*/
+	/*margin-top: 32px;*/
+	text-align: center;
+	font-weight: 800;
+}
+
+/*recipetheme*/
+.recipetheme-title{
+	/*margin-bottom: 32px;*/
+	/*margin-top: 32px;*/
+	text-align: center;
+	font-weight: 800;
+}
+
+.recipetheme-sub-title{
+	/*margin-bottom: 24px;*/
+	text-align: center;
+	font-weight: 800;
+}
+
+.the-link{
+	line-height: 24px;
+	margin-left: 32px;
+	color: #40414f;
+	font-size: 32px;
+}
+
+/*videorecipe*/
+.videorecipe-title{
+	/*margin-bottom: 32px;*/
+	/*margin-top: 32px;*/
+	text-align: center;
+	font-weight: 800;
+}
