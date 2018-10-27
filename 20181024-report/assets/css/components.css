@@ -179,6 +179,58 @@
 	height: 32px;
 	padding: 0 16px;
 }
+
+/* group */
+.btn-group .btn{
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 16px;
+}
+.btn-group .btn:last-child{
+	margin-bottom: 0px;
+}
+.btn-group--center{
+	text-align: center;
+}
+.btn-group--right{
+	text-align: right;
+}
+.btn-group--right .btn{
+	margin-right: 0;
+	margin-left: 16px;
+}
+/* social-btns */
+.social-btns{
+	display: flex;
+}
+.social-btns .icon-btn{
+	display: inline-block;
+	border: 1px solid #3ecf8e;
+	color: #3ecf8e;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	border-radius: 50%;
+	margin-right: 8px;
+	transition: all 0.2s;
+}
+.social-btns .icon-btn:last-child{
+	margin-right: 0;
+}
+.social-btns .icon-btn:hover{
+	color: #fbfbfb;
+	background-color: #3ecf8e;
+}
+.social-btns .icon-btn i{
+	line-height: 38px;
+	font-size: 20px;
+}
+
+/*fluid是指元件可以像液體般浮動，此為寬動浮動到100%*/
+.btn--fluid{
+	width: 100%;
+}
+
 /*------------------------------------*\
     Image
 \*------------------------------------*/
@@ -215,6 +267,9 @@
 	left: 0;
 	height: 64px;
 }
+.navbar--light{
+	background-color: rgba(251,251,251,0.95);
+}
 
 .navbar__brand{
 	display: inline-block;
@@ -241,7 +296,7 @@
 }
 
 .nav__link{
-	color: #ADAEAD;
+	color: #40414f;
 	font-family: Helvetica,Arial,"Noto Sans TC","Helvetica Neue","微軟正黑體","Microsoft JhengHei",PMingLiU,sans-serif;
 	font-weight: 800;
 	line-height: 24px;
@@ -251,42 +306,90 @@
 
 /*Jumobtron*/
 .jumbotron{
-
+	/*border:1px solid #000;*/
+	padding-right: 32px;
+	padding-left:32px;
 }
 
 .jumbotron__image{
 	/*border: 1px solid blue;*/
-	width: 100%;
+	width: -50%;
 	height: 75vh;
-	background-size: cover;
+
+	background-size: contain;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: right;
 }
 
 .jumbotron__content{
 	/*border: 1px solid red;*/
 	position: absolute;
 	top: 0;
-	left: 0;
-	width: 100%;
+	left: 10%;
+	width: 50%;
 	height: 100%;
 	align-items: center;
 	text-align: center;
 	display: flex;
+
+
 }
 
 .jumbotron__heading{
+	/*border:1px solid blue;*/
 	color: #40414f;
 	font-size: 80px;
 	font-weight: 800;
 	margin-bottom: 20px;
+	align-items: left;
+	text-align: left;
 }
 
 .jumbotron__para{
+	/*border:1px solid red;*/
 	color: #40414f;
-	font-size: 32px;
+	font-size: 24px;
 	font-weight: 400;
+	align-items: left;
+	text-align: left;
 }
+
+/*jumbotron search bar*/
+/* Add a black background color to the top navigation bar */
+.topnav {
+	/*border:1px solid #000;*/
+    overflow: hidden;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+    float: left;
+    padding: 6px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-top: 16px;
+    margin-right: 16px;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.searchbar-container{
+	display: flex;
+}
+
+.searchbar .btn{
+	margin-top: 16px;
+	border-radius: 5px;
+}
+
+/*------------------------------------*\
+   Hero
+\*------------------------------------*/
+.hero{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
 
 
 /*------------------------------------*\
@@ -312,6 +415,10 @@
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
+}
+
+.card__title:hover{
+	color: #B2BAC4;
 }
 .card__description{
 	font-size: 16px;

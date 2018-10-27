@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="assets/vendor/normalize.css">
 	<link rel="stylesheet" href="assets/css/base.css">
 	<link rel="stylesheet" href="assets/css/components.css">
+	<link rel="stylesheet" href="assets/vendor/font awsome/css/all.css">
 	<link rel="stylesheet" href="assets/css/homepage.css">
 	<link rel="stylesheet" href="assets/css/custom.css">
 	<link rel="stylesheet" href="assets/css/layout.css">
@@ -15,21 +16,21 @@
 	<div class="wrapper">
 	<!-- Start header -->
 	<header class="header">
-		<div class="navbar">
+		<div class="navbar navbar--light">
 			<div class="container">
 				<a href="#!" class="navbar__brand" style="background-image: url('assets/images/brand/leaf .jpg');"></a>
 				<ul class="navbar__nav">
 					<li class="nav__item">
-						<a href="#!" class="nav__link">食譜好學</a>
+						<a href="#!" class="nav__link">食譜</a>
 					</li>
 					<li class="nav__item">
-						<a href="#!" class="nav__link">烹飪技巧</a>
+						<a href="#!" class="nav__link">技巧</a>
 					</li>
 					<li class="nav__item">
-						<a href="#!" class="nav__link">煮食觀念</a>
+						<a href="#!" class="nav__link">資訊</a>
 					</li>
 					<li class="nav__item">
-						<a href="#!" class="nav__link">關於我們</a>
+						<a href="#!" class="nav__link">關於</a>
 					</li>
 				</ul>
 			</div>
@@ -41,30 +42,96 @@
 	<section class="main">
 	<!-- Start jumbotron -->
 	<div class="jumbotron">
-		<div class="jumbotron__image" style="background-image: url('assets/images/jumbotron/cook-3.jpg');"></div>
+		<div class="jumbotron__image" style="background-image: url('assets/images/jumbotron/cook-6.jpg');"></div>
 		<div class="jumbotron__content">
 			<div class="container">
-				<div class="jumbotron__heading">美味佳餚，自己做</div>
-				<div class="jumbotron__para">search bar</div>
+				<div class="jumbotron__heading">美食佳餚，自己做</div>
+				<div class="jumbotron__para">精選20,000道簡單菜單，帶領新手踏入美味的料理世界</div>
+			<div class="searchbar-container">
+				<div class="topnav">
+				<input type="text" placeholder="搜尋食譜、食材...">
+				</div>
+				<div class="searchbar">
+				<a href="#!" class="btn btn--primary">
+				<i class="fas fa-search"></i>
+				</a>
+				</div>
+			</div>
 			</div>
 		</div>
 	</div>
 	<!-- End jumbotron -->
 
-	<!-- Start cards-1 -->
-	<div class="hero homepage-cards-1">
+	<!-- Start easy recipe -->
+	<div class="hero homepage-easyrecipe bgc--light-grey-2">
 	<div class="container">
-		<h4 class="u-text-center u-mt-32">新手入門</h4>
+		<h2 class="easyrecipe-title">新手也能變大廚</h2>
+		<h4 class="easyrecipe-sub-title">為您精選簡易的入門料理</h4>
 			<div class="row">
 				<div class="col-lg-3">
 					<div class="card u-padding-8 u-mb-16">
 						<div class="img-container">
-							<div class="image" style="background-image: url('assets/images/salad.jpg');">
+							<div class="image" style="background-image: url('assets/images/easyrecipe/西瓜牛奶.jpg');">
 							</div>
 						</div>
 						<div class="card__body">
-							<div class="card__title">日式沙拉</div>
-							<!-- <div class="card__description">涼爽又好吃的沙拉，最適合夏天吃啦!分別選用「黃、綠、紅、白、黑」五行色彩的蔬果製作而成，看這滿滿的蔬菜和水果，讓人吃進無數的營養，還不快來一起動手試試看！>^ｏ^</div> -->
+							<a href="#!" class="">
+							<div class="card__title">西瓜牛奶</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="card u-padding-8 u-mb-16">
+						<div class="img-container">
+							<div class="image" style="background-image: url('assets/images/easyrecipe/日式海苔捲.jpg');">	
+							</div>
+						</div>
+						<div class="card__body">
+							<a href="#!">
+							<div class="card__title">日式海苔捲</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="card u-padding-8 u-mb-16">
+						<div class="img-container">
+							<div class="image" style="background-image: url('assets/images/easyrecipe/健康早午餐.jpg');">
+							</div>
+						</div>
+						<div class="card__body">
+							<a href="#!">
+							<div class="card__title">健康早午餐</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="card u-padding-8 u-mb-16">
+						<div class="img-container">
+							<div class="image" style="background-image: url('assets/images/easyrecipe/低卡薯條.jpg');">
+							</div>
+						</div>
+						<div class="card__body">
+							<a href="#!">
+							<div class="card__title">低卡薯條</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="card u-padding-8 u-mb-16">
+						<div class="img-container">
+							<div class="image" style="background-image: url('assets/images/easyrecipe/麻辣烤肉片.jpg');">
+							</div>
+						</div>
+						<div class="card__body">
+							<a href="#!">
+							<div class="card__title">麻辣烤肉片</div>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -72,98 +139,123 @@
 				<div class="col-lg-3">
 					<div class="card u-padding-8 u-mb-16">
 						<div class="img-container">
-							<div class="image" style="background-image: url('assets/images/sandwich.jpg');">	
+							<div class="image" style="background-image: url('assets/images/easyrecipe/蛤蜊南瓜濃湯.jpg');">	
 							</div>
 						</div>
 						<div class="card__body">
-							<div class="card__title">蔬果雞肉吐司</div>
-							<!-- <div class="card__description">一天之計在於晨，早餐便要有豐富的營養，來一個充滿穀香味的全麥吐司，搭配富含維生素C、E的蔬果和低卡雞胸肉，健康美味，零負擔!</div> -->
+							<a href="#!">
+							<div class="card__title">蛤蜊南瓜濃湯</div>
+							</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3">
 					<div class="card u-padding-8 u-mb-16">
 						<div class="img-container">
-							<div class="image" style="background-image: url('assets/images/pizza.jpg');">
+							<div class="image" style="background-image: url('assets/images/easyrecipe/太陽蛋吐司.jpg');">
 							</div>
 						</div>
 						<div class="card__body">
-							<div class="card__title">夏威夷起司披薩</div>
-							<!-- <div class="card__description">誰說減肥不能吃披薩，巧妙地利用水餃皮製作披薩餅皮，再撒上新鮮蔬果、低脂起司等食材，就能顧好體重，還能美白、預防心血管疾病。</div> -->
+							<a href="#!">
+							<div class="card__title">太陽蛋吐司</div>
+							</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3">
 					<div class="card u-padding-8 u-mb-16">
 						<div class="img-container">
-							<div class="image" style="background-image: url('assets/images/pizza.jpg');">
+							<div class="image" style="background-image: url('assets/images/easyrecipe/清爽咖哩蝦.jpg');">
 							</div>
 						</div>
 						<div class="card__body">
-							<div class="card__title">夏威夷起司披薩</div>
-							<!-- <div class="card__description">誰說減肥不能吃披薩，巧妙地利用水餃皮製作披薩餅皮，再撒上新鮮蔬果、低脂起司等食材，就能顧好體重，還能美白、預防心血管疾病。</div> -->
+							<a href="#!">
+							<div class="card__title">清爽咖哩蝦</div>
+							</a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-lg-3">
-					<div class="card u-padding-8 u-mb-16">
-						<div class="img-container">
-							<div class="image" style="background-image: url('assets/images/salad.jpg');">
-							</div>
-						</div>
-						<div class="card__body">
-							<div class="card__title">日式沙拉</div>
-							<!-- <div class="card__description">涼爽又好吃的沙拉，最適合夏天吃啦!分別選用「黃、綠、紅、白、黑」五行色彩的蔬果製作而成，看這滿滿的蔬菜和水果，讓人吃進無數的營養，還不快來一起動手試試看！>^ｏ^</div> -->
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-3">
-					<div class="card u-padding-8 u-mb-16">
-						<div class="img-container">
-							<div class="image" style="background-image: url('assets/images/sandwich.jpg');">	
-							</div>
-						</div>
-						<div class="card__body">
-							<div class="card__title">蔬果雞肉吐司</div>
-							<!-- <div class="card__description">一天之計在於晨，早餐便要有豐富的營養，來一個充滿穀香味的全麥吐司，搭配富含維生素C、E的蔬果和低卡雞胸肉，健康美味，零負擔!</div> -->
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3">
-					<div class="card u-padding-8 u-mb-16">
-						<div class="img-container">
-							<div class="image" style="background-image: url('assets/images/pizza.jpg');">
-							</div>
-						</div>
-						<div class="card__body">
-							<div class="card__title">夏威夷起司披薩</div>
-							<!-- <div class="card__description">誰說減肥不能吃披薩，巧妙地利用水餃皮製作披薩餅皮，再撒上新鮮蔬果、低脂起司等食材，就能顧好體重，還能美白、預防心血管疾病。</div> -->
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3">
-					<div class="card u-padding-8 u-mb-16">
-						<div class="img-container">
-							<div class="image" style="background-image: url('assets/images/pizza.jpg');">
-							</div>
-						</div>
-						<div class="card__body">
-							<div class="card__title">夏威夷起司披薩</div>
-							<!-- <div class="card__description">誰說減肥不能吃披薩，巧妙地利用水餃皮製作披薩餅皮，再撒上新鮮蔬果、低脂起司等食材，就能顧好體重，還能美白、預防心血管疾病。</div> -->
-						</div>
-					</div>
-				</div>
+			<div class="btn-group btn-group--center">
+				<a href="#!" class="btn btn--primary btn--lg">看更多</a>
 			</div>
-			<a href="#!" class="btn btn--primary btn--md">看更多</a>
-			</div>
-	<!-- End cards-1 -->
-	<!-- Start cards-2 -->
-	<div class="hero homepage-cards-2">
+	</div>
+	</div>
+	<!-- End easy recipe -->
+	<!-- Start hard recipe -->
+	<div class="hero homepage-hardrecipe">
 		<div class="container">
-		<h4 class="u-text-center u-mt-32">進階料理</h4>
+		<h2 class="hardrecipe-title">進階料理</h2>
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="card u-padding-8 u-mb-16">
+						<div class="img-container">
+							<div class="image" style="background-image: url('assets/images/hardrecipe/salad.jpg');">
+							</div>
+						</div>
+						<div class="card__body">
+							<div class="card__title">日式沙拉</div>
+							<div class="card__description">涼爽又好吃的沙拉，最適合夏天吃啦!分別選用「黃、綠、紅、白、黑」五行色彩的蔬果製作而成，看這滿滿的蔬菜和水果，讓人吃進無數的營養，還不快來一起動手試試看！>^ｏ^</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4">
+					<div class="card u-padding-8 u-mb-16">
+						<div class="img-container">
+							<div class="image" style="background-image: url('assets/images/hardrecipe/sandwich.jpg');">	
+							</div>
+						</div>
+						<div class="card__body">
+							<div class="card__title">蔬果雞肉吐司</div>
+							<div class="card__description">一天之計在於晨，早餐便要有豐富的營養，來一個充滿穀香味的全麥吐司，搭配富含維生素C、E的蔬果和低卡雞胸肉，健康美味，零負擔!</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card u-padding-8 u-mb-16">
+						<div class="img-container">
+							<div class="image" style="background-image: url('assets/images/hardrecipe/pizza.jpg');">
+							</div>
+						</div>
+						<div class="card__body">
+							<div class="card__title">夏威夷起司披薩</div>
+							<div class="card__description">誰說減肥不能吃披薩，巧妙地利用水餃皮製作披薩餅皮，再撒上新鮮蔬果、低脂起司等食材，就能顧好體重，還能美白、預防心血管疾病。</div>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div class="btn-group btn-group--center">
+				<a href="#!" class="btn btn--primary btn--lg">看更多</a>
+				</div>
+		</div>
+	</div>
+	<!-- End hard recipe -->
+
+	<!-- Start recipe theme -->
+	<!-- <div class="hero homepage-recipetheme bgc--light-grey-2">
+	<h2 class="recipetheme-title">食譜分類</h2>
+	<h4 class="recipetheme-sub-title">一餐要煮什麼?我們都幫您準備好了</h4>
+	<div class="container">
+		<ul class="recipetheme-the">
+			<li class="the-item">
+				<a href="#!" class="the-link">主食</a>
+				<a href="#!" class="the-link">菜餚</a>
+				<a href="#!" class="the-link">湯品</a>
+				<a href="#!" class="the-link">輕食</a>
+				<a href="#!" class="the-link">點心</a>
+				<a href="#!" class="the-link">飲品</a>
+
+			</li>
+		</ul>
+	</div>
+	</div> -->
+	<!-- End reciepe theme -->
+
+	<!-- Start video recipe -->
+	<div class="hero homepage-videorecipe bgc--light-grey-2">
+		<div class="container">
+		<h2 class="videorecipe-title">影音教學</h2>
 			<div class="row">
 				<div class="col-lg-4">
 					<div class="card u-padding-8 u-mb-16">
@@ -177,7 +269,6 @@
 						</div>
 					</div>
 				</div>
-
 				<div class="col-lg-4">
 					<div class="card u-padding-8 u-mb-16">
 						<div class="img-container">
@@ -203,64 +294,18 @@
 					</div>
 				</div>
 			</div>
+			<div class="btn-group btn-group--center">
+				<a href="#!" class="btn btn--primary btn--lg">看更多</a>
 			</div>
-	<!-- End cards-2 -->
+		</div>
+	</div>
+	<!-- End video recipe -->
 
-	<!-- Start cards-3 -->
-	<div class="hero homepage-cards-2 bgc--light-grey-2">
-		<div class="container">
-		<h4 class="u-text-center u-mt-32">影音教學</h4>
-			<div class="row">
-				<div class="col-lg-4">
-					<div class="card u-padding-8 u-mb-16">
-						<div class="img-container">
-							<div class="image" style="background-image: url('assets/images/salad.jpg');">
-							</div>
-						</div>
-						<div class="card__body">
-							<div class="card__title">日式沙拉</div>
-							<div class="card__description">涼爽又好吃的沙拉，最適合夏天吃啦!分別選用「黃、綠、紅、白、黑」五行色彩的蔬果製作而成，看這滿滿的蔬菜和水果，讓人吃進無數的營養，還不快來一起動手試試看！>^ｏ^</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-4">
-					<div class="card u-padding-8 u-mb-16">
-						<div class="img-container">
-							<div class="image" style="background-image: url('assets/images/sandwich.jpg');">	
-							</div>
-						</div>
-						<div class="card__body">
-							<div class="card__title">蔬果雞肉吐司</div>
-							<div class="card__description">一天之計在於晨，早餐便要有豐富的營養，來一個充滿穀香味的全麥吐司，搭配富含維生素C、E的蔬果和低卡雞胸肉，健康美味，零負擔!</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="card u-padding-8 u-mb-16">
-						<div class="img-container">
-							<div class="image" style="background-image: url('assets/images/pizza.jpg');">
-							</div>
-						</div>
-						<div class="card__body">
-							<div class="card__title">夏威夷起司披薩</div>
-							<div class="card__description">誰說減肥不能吃披薩，巧妙地利用水餃皮製作披薩餅皮，再撒上新鮮蔬果、低脂起司等食材，就能顧好體重，還能美白、預防心血管疾病。</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			</div>
-	<!-- End cards-3 -->
-
-	<!-- Start video-2 -->
-	<!-- End video-2 -->
-
-	<!-- Start avatar -->
-	<!-- End avatar -->
 	</section>
 	<!-- End main -->
 
 	<!-- Start footer -->
+
 	<!-- End footer -->
 	</div>
 </body>
