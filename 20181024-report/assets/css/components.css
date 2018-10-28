@@ -433,3 +433,53 @@
 	margin-top: 16px;
 }
 
+
+/* footer */
+.footer{
+	background-image: url('../images/footer/蘿蔔花.jpg');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.footer .brand{
+	width: 240px;
+	height: 240px;
+	display: block;
+	margin: 0 auto;
+	background-image: url('../images/footer/蘿蔔花.jpg');
+	background-position: center;
+	background-size: contain;
+}
+@media (max-width: 768px){
+	.footer .brand{
+		width: 200px;
+		height: 200px;
+	}
+}
+.footer .nav{
+	display: flex;
+	justify-content: center;
+}
+.footer .nav .nav-link{
+	display: block;
+	color: #fefefe;
+	padding: 24px;
+	line-height: 24px;
+	transition: all 0.3s;
+}
+@media (max-width: 768px){
+	.footer .nav .nav-link{
+		padding: 24px 8px;
+	}
+}
+.footer .nav .nav-link:hover{
+	color: #d5a26f;
+}
+.footer .copyright{
+	background-color: rgba(0,0,0,0.8);
+	color: #ddd;
+	text-align: center;
+	line-height: 24px;
+	padding: 16px 0;
+	font-size: 14px;
+}
