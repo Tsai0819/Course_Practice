@@ -41,8 +41,8 @@
 	letter-spacing: 0;
 	text-transform: uppercase;
 	text-decoration: none;
-	color: #40414f;
-	background-color: #fbfbfb;
+	color: #fff;
+	background-color: #D41241;
 	border: 0;
 	border-radius: 22px;
 	outline: none;
@@ -59,7 +59,7 @@
 }
 .btn--hover,
 .btn:hover{
-	color:  #151730;
+	color:  #fff;
 	transform: translateY(-1px);
 	box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
 }
@@ -205,10 +205,10 @@
 }
 .social-btns .icon-btn{
 	display: inline-block;
-	border: 1px solid #40414f;
-	color: #40414f;
-	width: 35px;
-	height: 35px;
+	border: 1px solid #D41241;
+	color: #D41241;
+	width: 40px;
+	height: 40px;
 	text-align: center;
 	border-radius: 50%;
 	margin-right: 16px;
@@ -219,12 +219,12 @@
 	margin-right: 0;
 }
 .social-btns .icon-btn:hover{
-	color: #fbfbfb;
+	color: #ffffff;
 	background-color: #D41241;
 }
 .social-btns .icon-btn i{
 	line-height: 38px;
-	font-size: 1px;
+	/*font-size: 1px;*/
 }
 
 
@@ -517,7 +517,6 @@
 }
 
 /* footer */
-
 .footer .row .col-lg-4{
 	/*border:1px solid red;*/
 	margin: 0 24px;
@@ -529,23 +528,25 @@
 }
 
 .footer{
-	/*background-image: url('../images/footer/做菜-2.jpg');
-	background-position: top;
-	background-size: cover;
-	background-attachment: fixed;	*/
-
 	box-shadow: 0 -4px 6px rgba(50,50,93,.11), 0 -1px 3px rgba(0,0,0,.08); 
 }
 
 .footer-nav .nav{
-	display: flex;
-	justify-content: space-between;
+	/*border: 1px solid #000;*/
+	display: block;
+	
 }
+
+.footer-nav .nav-item{
+	/*border: 1px solid blue;*/
+	display: block;
+}
+
 .footer-nav .nav .nav-link{
-	display: flex;
+	/*border: 1px solid red;*/
 	color: #686c71;
-	padding: 32px;
-	line-height: 24px;
+	padding:16px ;
+	line-height: 12px;
 	font-size: 20px;
 	transition: all 0.3s;
 }
@@ -555,7 +556,7 @@
 	}
 }
 .footer .nav .nav-link:hover{
-	color: #40414f;
+	color: #D41241;
 }
 .footer .copyright{
 	/*background-color: rgba(0,0,0,0.8);*/
@@ -622,5 +623,5 @@
 }
 
 .footer .col-lg-2 a:hover{
-	color: #151730;
+	color: #D41241;
 }
