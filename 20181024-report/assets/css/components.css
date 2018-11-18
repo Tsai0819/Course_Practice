@@ -407,7 +407,7 @@
 .jumbotron__heading{
 	/*border:1px solid blue;*/
 	color: #40414f;
-	font-size:75px;
+	font-size:70px;
 	font-weight: 800;
 	margin-bottom: 20px;
 	align-items: left;
@@ -427,13 +427,18 @@
 
 .btn.searchbar{
 	display: inline-block;
-	height: 30px;
+	height: 25px;
 	border-radius:0px 4px 4px 0px;
 	background-color: #D41241 ;
 }
 
 .fa-search{
+	display: inline-block;
 	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translate(150%,30%);
 }
 
 /*------------------------------------*\
