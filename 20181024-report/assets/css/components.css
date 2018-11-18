@@ -12,7 +12,6 @@
 /**
  * Content
  * Button
- * Avatar
  * Image
  * Card
  * Navigation
@@ -21,7 +20,9 @@
  * Footer
  */
 
-/*Button*/
+/*------------------------------------*\
+    Button
+\*------------------------------------*/
 .btn{
 	/* structure */
 	display: inline-block;
@@ -310,7 +311,7 @@
 	left: 0;*/
 	height: 64px;
 	width: 100%;
-	/*box-shadow: 0 1px 5px rgba(0,0,0,0.2);*/
+	box-shadow: 0 1px 5px rgba(0,0,0,0.2);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -365,7 +366,7 @@
 
 /*Jumobtron*/
 .jumbotron{
-	border:1px solid #000;
+	/*border:1px solid #000;*/
 	padding-right: 32px;
 	padding-left:32px;
 	margin-top:68px;
@@ -373,7 +374,7 @@
 }
 
 .jumbotron__image{
-	border: 1px solid blue;
+	/*border: 1px solid blue;*/
 	width: 50%;
 	height: 75vh;
 	
@@ -384,14 +385,9 @@
 }
 
 .jumbotron__content{
-	border: 1px solid red;
-	position: absolute;
-	top:0;
-	left:0;
+	/*border: 1px solid red;*/
 	width: 50%;
 	height: 75vh;
-	align-items:center;
-	/*text-align: center;*/
 	float: left;
 }
 .clearfix:after{
@@ -402,6 +398,11 @@
     visibility: hidden;
 }
 
+.jumbotron__content >.container{
+	position: absolute;
+	top: 30%;
+	left: 20%;
+}
 
 .jumbotron__heading{
 	/*border:1px solid blue;*/
@@ -423,39 +424,15 @@
 }
 
 /*jumbotron search bar*/
-/* Add a black background color to the top navigation bar */
-.topnav {
-	/*border:1px solid #000;*/
-    overflow: hidden;
-}
 
- /*Style the search box inside the navigation bar 
-.topnav input[type=text] {
-    float: left;
-    padding: 6px;
-    border: 1px solid grey;
-    border-radius: 5px;
-    margin-top: 16px;
-    margin-right: 16px;
-    font-size: 24px;
-    line-height: 24px;
-}*/
-
-.searchbar-container{
-	float: left;
-}
-
-.form__search{
-	border-radius: 4px 0px 0px 4px;
-}
-
-.searchbar .btn{
-	margin-top: 16px;
+.btn.searchbar{
+	display: inline-block;
+	height: 30px;
 	border-radius:0px 4px 4px 0px;
 	background-color: #D41241 ;
 }
 
-.searchbar .btn .fa-search{
+.fa-search{
 	color: #fff;
 }
 
@@ -509,6 +486,8 @@
 .card__btn{
 	margin-top: 16px;
 }
+
+/*footer*/
 /* section-intro */
 .section-intro{
 	text-align: left;
@@ -530,15 +509,12 @@
 form{ 
 	/*border:1px solid grey;*/
 	max-width: 400px;
-	margin:0 auto;
 }
-
 
 .form__item{
 	display: flex;
 	align-items:left;
 	color: #686c71;
-
 }
 
 
@@ -559,12 +535,12 @@ form{
 }
 
 
-/*follow btn*/
+/*/*follow btn*/
 .footer .col-lg-2 .title{
 	color: #686c71;
 	font-size: 20px;
 	margin-bottom: 4px;
-}
+}*/
 
 
 
@@ -588,20 +564,20 @@ form{
 	color: #D41241;
 }
 
-/* footer */
+
 .footer .row{
 	display: flex;
 	justify-content: center;
 }
 .footer .row .col-lg-4{
 	float: left;
-	border:1px solid red;
+	/*border:1px solid red;*/
 	margin: 0 24px;
 }
 
 
 .footer .row .col-lg-2{
-	border:1px solid #000;
+	/*border:1px solid #000;*/
 	margin: 0 24px;
 }
 
