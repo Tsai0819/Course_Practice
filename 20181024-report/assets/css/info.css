@@ -47,8 +47,27 @@
 	margin-bottom: 16px;
 }
 
-.info-card .para{
+.info-card .heading-5{
+	line-height: 24px;
+	font-size: 20px;
+	font-weight: 800;
+	color: #D41241;
+	margin-bottom: 20px;
+}
+.info-card .info-description{
 	line-height: 24px;
 	font-size: 16px;
-	font-weight: 800;
+	font-weight: 400;
+}
+
+.info-card .para{
+	line-height: 24px;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.info-card .info-link{
+	line-height: 28px;
+	font-size: 14px;
+	font-weight: 400;
 }
