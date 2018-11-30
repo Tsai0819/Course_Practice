@@ -32,6 +32,13 @@
 	font-weight: 800;
 }
 
+.about-jumbotron__description{
+	margin-top: 16px;
+	color: #ffffff;
+	font-size:30px;
+	font-weight: 800;
+}
+
 /*about*/
 .about-title,.team-title{
 	text-align: center;
@@ -63,8 +70,13 @@
 	font-size: 48px;
 }
 .about-para{
-	font-size: 20px;
-	line-height:24px;
+	color: #686C71;
+	font-weight: 800;
+	padding: 0 180px;
+	/*font-size: 20px;*/
+	line-height:48px;
+	text-align: center;
+
 }
 
 .avatar{
@@ -93,10 +105,12 @@
 	font-size: 32px;
 	text-align: center;
 	color: #686C71;
-
+	text-decoration: none;
+	margin: 0;
 }
 
 .avatar-para{
 	font-size: 20px;
 	text-align: center;
+	margin: 0;
 }
