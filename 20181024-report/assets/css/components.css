@@ -40,7 +40,6 @@
 .logoname{
 	display: inline-block;
 	color: #D41241;
-	font-family: Helvetica,Arial,"Noto Sans TC","Helvetica Neue","微軟正黑體","Microsoft JhengHei",PMingLiU,sans-serif;
 	font-weight: 800;
 	line-height: 24px;
 }
@@ -71,7 +70,6 @@
 
 .nav__link{
 	color: #ADAEAD ;
-	font-family: Helvetica,Arial,"Noto Sans TC","Helvetica Neue","微軟正黑體","Microsoft JhengHei",PMingLiU,sans-serif;
 	font-weight: 800;
 	line-height: 24px;
 	padding-left: 16px;
@@ -151,7 +149,17 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	transform: translate(150%,30%);
+	transform: translate(130%,30%);
+}
+
+/*mask*/
+.mask-dark{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);
 }
 
 /*------------------------------------*\
@@ -166,98 +174,59 @@
     Button
 \*------------------------------------*/
 .btn{
-	/* structure */
 	display: inline-block;
-	vertical-align: middle;
-	position: relative;
-	margin: 0;
+	text-decoration: none;
 	height: 36px;
+	min-width: 64px;
 	line-height: 36px;
 	padding: 0 32px;
-	min-width: 64px;
-    box-sizing: border-box;
-	/* style */
-	font-size: 16px;
-	text-align: center;
-	font-weight: 300;
- 	font-family: Helvetica,Arial,"Noto Sans TC","Helvetica Neue","微軟正黑體","Microsoft JhengHei",PMingLiU,sans-serif;
-	letter-spacing: 0;
-	text-transform: uppercase;
-	text-decoration: none;
+	border-radius: 28px;
+	background-color:#D41241;
+	box-shadow:0 4px 6px rgba(50,50,93,.11);
 	color: #fff;
-	background-color: #D41241;
-	border: 0;
-	border-radius: 22px;
-	outline: none;
-	box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
-	/* interact */
-	cursor: pointer;
-	overflow: hidden;
-	-webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-    -webkit-user-drag: none;
-    transition: all .15s ease;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 0;
+	cursor:pointer;
+	transition: all 0.15s;
 }
 .btn:hover{
-	color:  #fff;
+	background-color: #DC3B68;
 	transform: translateY(-1px);
-	box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+	box-shadow: 0 3px 6px rgba(0,0,0,.08);
 }
 .btn:active{
 	color: #686C71;
-    background-color: #f6f9fc;
+    background-color: #CC1340;
     transform: translateY(1px);
-    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    box-shadow: 0 4px 6px rgba(50,50,93,.11);
 }
 
-.btn.btn--primary{
-	background-color: #D41241;
-}
-.btn.btn--primary:hover{
-	background-color: #DC3B68;
-	transform: translateY(-1px);
-	box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
-}
-.btn.btn--primary:active{
-	background-color: #CC1340;
-	transform: translateY(1px);
-	box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 6px rgba(0,0,0,.08);
-}
 
 /* Size */
 .btn.btn--lg{
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 56px;
 	height: 56px;
-	font-weight: 400;
-	border-radius: 28px;
 }
 .btn.btn--md{
 	font-size: 16px;
-	line-height: 44px;
-	height: 44px;
+	line-height: 36px;
+	height: 36px;
 }
+
 .btn.btn--sm{
-	font-size: 13px;
+	padding: 0 18px;
+	font-size: 14px;
 	line-height: 32px;
 	height: 32px;
-	padding: 0 16px;
 }
 
 /* group */
 .btn-group{
 	display: flex;
 }
-.btn-group .btn{
-	margin-left: 8px;
-	margin-right: 8px;
-	margin-bottom: 16px;
-}
-.btn-group .btn:last-child{
-	margin-bottom: 0px;
-}
+
 .btn-group--center{
 	justify-content: center;
 }
@@ -287,7 +256,6 @@
 }
 .social-btns .icon-btn i{
 	line-height: 38px;
-	/*font-size: 1px;*/
 }
 
 /*video-button*/
@@ -419,7 +387,6 @@
 	font-size: 20px;
 	color: #ADAEAD;
 	margin-bottom: 4px;
-	font-family: Helvetica,Arial,"Noto Sans TC","Helvetica Neue","微軟正黑體","Microsoft JhengHei",PMingLiU,sans-serif;
 	font-weight: 800;
 }
 
