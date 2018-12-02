@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<link rel="stylesheet" href="assets/vendor/normalize.css">
 	<link rel="stylesheet" href="assets/css/base.css">
@@ -11,6 +12,7 @@
 	<link rel="stylesheet" href="assets/css/custom.css">
 	<link rel="stylesheet" href="assets/css/layout.css">
 	<link rel="stylesheet" href="assets/vendor/bootstrap-grid/bootstrap-grid.css">
+	<!-- <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.min.css"> -->
 </head>
 <body>
 <div class="wrapper">
@@ -21,7 +23,7 @@
 				<a href="index.html" class="navbar__brand">
 					<h5>初.COOK</h5>
 				</a>
-				<ul class="navbar__nav">
+				<ul id="popnav" class="navbar__nav">
 					<li class="nav__item">
 						<a href="index.html" class="nav__link">所有食譜</a>
 					</li>
@@ -34,7 +36,16 @@
 					<li class="nav__item">
 						<a href="about.html" class="nav__link">關於我們</a>
 					</li>
+					<a href="#" class="close-btn">
+						<span></span>
+	 					<span></span>
+					</a>
 				</ul>
+				<a href="#popnav" class="nav-toggle">
+					<span></span>
+					<span></span>
+					<span></span>
+				</a>
 			</div>
 		</div>
 	</header>
@@ -272,13 +283,14 @@
 			<div class="row">
 				<div class="col-lg-4">
 					<div class="card u-padding-8 u-mb-16">
-						<a href="#!" target="__blank">
+						<a href="https://www.youtube.com/embed/iqRSumDchIw" target="__blank">
+								<!-- <iframe width="340" height="250" src="https://www.youtube.com/embed/iqRSumDchIw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	 -->
 							<div class="img-container">
 								<div class="video-button image" style="background-image: url('assets/images/recipe/video-recipe/video-recipe-1.PNG');">
-										<iframe width="340" height="250" src="https://www.youtube.com/embed/iqRSumDchIw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 								</div>
 							</div>
 						</a>
+						
 						<div class="card__body">
 							<a href="#!">
 							<div class="card__title">拉麵漢堡 </div>
@@ -367,8 +379,8 @@
 				</div>
 
 				<div class="col-lg-3">
-					<div class="footer-nav">
-						<ul>
+					<div class="footer-navbar">
+						<ul class="footer-nav">
 							<li class="footer-item">
 								<a href="index.html" class="footer-link">所有食譜</a>
 							</li>
@@ -391,5 +403,9 @@
 	<!-- End footer -->
 	</div>
 </body>
+<!-- lib -->
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<!-- custom -->
+<!-- <script src="assets/vendor/fancybox/jquery.fancybox.min.js"></script> -->
 </html>
 
