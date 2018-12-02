@@ -46,11 +46,15 @@
 
 .navbar__brand{
 	display: inline-block;
-	width: 32px;
-	height: 32px;
+	width: 100px;
+	height: 80px;
+	background-image: url(../images/brand/logo-03.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
+
+	text-indent: 100%;
+	overflow: hidden;
 }
 
 .navbar >.container{
@@ -451,13 +455,13 @@ form{
 
 /*footer-nav*/
 .footer-nav .footer-item{
-	/*border: 1px solid blue;*/
-	display: block;
+	border: 1px solid black;
+	/*display: block;*/
 	margin: 10px;
 }
 
 .footer-nav .footer-item .footer-link{
-	/*border: 1px solid red;*/
+	border: 1px solid red;
 	display: inline-block;
 	color: #ADAEAD;
 	font-size: 20px;
@@ -469,14 +473,7 @@ form{
 	color: #D41241;
 }
 
-@media (max-width: 768px){
-	.footer-nav .footer-item .footer-link{
-		padding: 24px 8px;
-	}
-}
-
 .footer .copyright{
-	/*background-color: rgba(0,0,0,0.8);*/
 	color: #ADAEAD;
 	text-align:left;
 	line-height: 24px;
