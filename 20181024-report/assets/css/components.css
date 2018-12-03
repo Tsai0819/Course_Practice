@@ -75,29 +75,33 @@
 .nav__link{
 	color: #ADAEAD ;
 	font-weight: 800;
+	font-size: 20px;
 	line-height: 24px;
 	padding-left: 16px;
 	padding-right: 16px;
 }
 @media (max-width: 768px){
+	/*導覽列在螢幕大小768px下的畫面*/
 	.navbar .navbar__nav{
+	/*做導覽列被點擊後的轉場效果:漢堡(menu-toggle)還沒被點擊的樣子，點擊背景是hidden的，完全透明*/
 		visibility: hidden;
 		opacity: 0;
 		transition: all 0.3s;
-
+	/*點擊背景的排版，用flex是要將內容用flex-direction:column(根據flexbox的column方向排列)及justify-content:center(排列於中間)的排列方式，*/
 		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	/*點擊背景的樣式，fixed固定在畫面，定位於自己的top:0及left:0的位置，且全螢幕(width:100%，height:100)*/	
 		position: fixed;
 		width: 100%;
 		height: 100%;
 		top: 0;
 		left: 0;
-
+	/*點擊背景的樣式，背景顏色為#ffff，層次是500，*/	
 		background-color:#ffff;
 		z-index: 500;
-		flex-direction: column;
-		justify-content: center;
-
 	}
+	/*做導覽列被點擊後的轉場效果:漢堡(menu-toggle)被點擊後有target的轉圈效果，且點擊背景是visible顯示的，有點不透明1*/
 	#popnav:target{
 		visibility: visible;
 		opacity: 1;
@@ -109,7 +113,7 @@
 	width: 48px;
 	height: 48px;
 	padding: 12px 8px;
-	float:right;
+	align-content: flex-end;
 }
 
 .nav-toggle span{
@@ -121,13 +125,14 @@
 
 @media (max-width: 768px){
 	.nav-toggle{
-		display: block;
+		display:block;
 	}
 }
 @media (max-width: 768px){
 	.navbar .navbar__nav .nav__item{
 		float: none;
 		text-align: center;
+		padding: 20px 0;
 	}
 	.navbar .navbar__nav .nav__item a{
 		width: 100%;
@@ -139,8 +144,8 @@
 		height: 48px;
 		padding: 8px;
 		position: absolute;
-		top: 8px;
-		right: 16px;
+		top: 7.5px;
+		right: 30px;
 	}
 	.navbar .navbar__nav .close-btn span{
 		display: block;
