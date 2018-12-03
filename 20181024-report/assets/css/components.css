@@ -89,7 +89,7 @@
 	}
 	#popnav:target{
 		visibility: visible;
-		opacity: 0.6;
+		opacity: 1;
 	}
 }
 .nav-toggle{
@@ -125,7 +125,7 @@
 		width: 100%;
 		padding: 12px 16px;
 	}
-	.navbar .navbar__nav .close-btn{
+	.close-btn{
 		display: block;
 		width: 48px;
 		height: 48px;
@@ -134,7 +134,7 @@
 		top: 8px;
 		right: 16px;
 	}
-	.navbar .navbar__nav .close-btn span{
+	.close-btn span{
 		display: block;
 		width: 40px;
 		height: 2px;
@@ -143,10 +143,10 @@
 		top: 50%;
 		left: 50%;
 	}
-	.navbar .navbar__nav .close-btn span:nth-child(1){
+	.navbar .close-btn span:nth-child(1){
 		transform: translate(-50%,-50%) rotate(45deg);
 	}
-	.navbar .navbar__nav .close-btn span:nth-child(2){
+	.navbar .close-btn span:nth-child(2){
 		transform: translate(-50%,-50%) rotate(-45deg);
 	}
 }
@@ -226,7 +226,7 @@
 	transform: translate(130%,30%);
 }
 
-@media(min-width: 576px){
+@media(max-width: 576px){
 	.jumbotron{ 
 		display: flex;
 		flex-direction: column;
@@ -268,7 +268,7 @@
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
-@media(min-width: 576px){
+@media(max-width: 576px){
 	.hero{
 		padding-top: 80px;
 		padding-bottom: 80px;
