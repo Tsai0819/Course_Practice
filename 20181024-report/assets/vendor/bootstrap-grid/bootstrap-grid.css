@@ -20,6 +20,7 @@ html {
 }
 
 .container {
+  /*border: 1px solid #000;*/
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
