@@ -67,7 +67,27 @@
 	font-weight: 800;
 	font-size: 20px;
 	line-height: 24px;
+	padding: 20px 0px;
 	margin-left:16px;
+}
+.nav__link:before{
+	display: inline-block;
+	content: '';
+	width: 0px;
+	height: 4px;
+	background-color: #D41241;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%,0);
+	transition: all 0.3s;
+
+}
+
+.nav__link:hover:before{
+	width: 100%;
+	background-color: #D41241;
+	color: #D41241;
 }
 @media (max-width: 768px){
 	.navbar .navbar__nav{

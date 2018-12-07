@@ -21,7 +21,7 @@
 /*Default styles*/
 *{
 	box-sizing: border-box;
-	/*position: relative;*/
+	position: relative;
 }
 
 body{
