@@ -70,6 +70,9 @@
 	padding: 20px 0px;
 	margin-left:16px;
 }
+.nav__link:hover{
+	color: #D41241;
+}
 .nav__link:before{
 	display: inline-block;
 	content: '';
@@ -87,7 +90,6 @@
 .nav__link:hover:before{
 	width: 100%;
 	background-color: #D41241;
-	color: #D41241;
 }
 @media (max-width: 768px){
 	.navbar .navbar__nav{
