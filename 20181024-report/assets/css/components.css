@@ -414,7 +414,7 @@
 	position: relative;
 }
 .img-container:before{
-	content: "";
+	content: '';
 	display: block;
 	width: 100%;
 	padding-top: 75%;
@@ -432,7 +432,7 @@
 	background-position: center;
 }
 
-.img-container:hover{
+.image-hover:hover{
 	transform: scale(1.1);
 	transition: all 0.3s;
 	
