@@ -31,7 +31,16 @@
 	font-size:75px;
 	font-weight: 800;
 }
-
+@media(max-width: 768px){
+	.info-jumbotron__heading{
+		font-size: 60px;
+	}
+}
+@media(max-width: 576px){
+	.info-jumbotron__heading{
+		font-size: 48px;
+	}
+}
 /*info-card*/
 .info-card{
 	background-color: #fbfbfb;
