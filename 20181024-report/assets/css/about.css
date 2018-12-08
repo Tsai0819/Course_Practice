@@ -26,12 +26,12 @@
 .about-jumbotron__content{
 	/*border: 1px solid red;*/
 	width: 100%;
-	height: 100%;
+	height: 95%;
 	display: flex;
 	align-items: center;
 	text-align: center;
 	position: absolute;
-	top: 0;
+	top: 5%;
 	left:0;
 }
 
@@ -46,6 +46,14 @@
 	margin-top: 16px;
 	color: #444444;
 	font-size:30px;
+	font-weight: 800;
+}
+
+.about-jumbotron__description .logoname{
+	margin-top: 16px;
+	padding-right: 12px;
+	color: #D41241;
+	font-size:28px;
 	font-weight: 800;
 }
 
