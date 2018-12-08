@@ -1,17 +1,17 @@
 /*mask*/
-.mask-dark{
+/*.mask-dark{
 	position: absolute;
 	left: 0;
 	top: 0;
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0,0,0,0.7);
-}
+}*/
 
 /*jumbotron*/
 .about-jumbotron{
 	/*border:1px solid #000;*/
-	margin-bottom: 64px;
+	/*margin-bottom: 64px;*/
 }
 
 .about-jumbotron__image{
