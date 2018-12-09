@@ -746,3 +746,7 @@
 	}
 
 }
+
+.fancybox-navigation .fancybox-button{
+	position: fixed !important;
+}
