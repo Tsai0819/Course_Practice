@@ -29,7 +29,9 @@ body{
 	font-weight: 400;
 	font-family:Helvetica,Arial,"Noto Sans TC","Helvetica Neue","微軟正黑體","Microsoft JhengHei",PMingLiU,sans-serif,'Lato', sans-serif;;
 	color: #40414f;
-    background-color: #fff;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
 a{
